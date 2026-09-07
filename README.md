@@ -73,6 +73,27 @@ This statement applies to every edition. From edition 2 onwards it is also print
 first page of the document itself; edition 1 does not carry it, so for that edition this
 page is where it stands.
 
+## Planned next steps
+
+None of this is a promise. It is where the work currently points.
+
+**Edition 2** will carry what the first reviewers sent back. Their objections are being
+worked through one by one; what gets in, and what does not, will be visible in
+[CHANGELOG.md](CHANGELOG.md).
+
+**A second anchor, beside the exam guides — an idea, not a decision.** The questions are
+derived from one vendor's certification guides. That is a narrow footing for a document
+meant for a review. The obvious counterweight is the body of rules a German reviewer
+already works with: the EU AI Act, the GDPR, the GoBD, the Commission's guidance on the
+Article 50 transparency obligations, the German Trade Secrets Act, the US CLOUD Act, and
+the IDW pronouncements — IDW PS 861 on the audit of AI systems, IDW AdvH 6.003 on the
+use of generative AI.
+
+Nothing in the questionnaire would change because of this. The place for it would be the
+rationale, where each question already names where it comes from — a second line beside
+the first, so a question can be traced not only to a capability someone should have, but
+to a rule someone has to keep. Whether that is worth its weight is the open question.
+
 ## Licence
 
 The questionnaire, its text and its data are licensed under
