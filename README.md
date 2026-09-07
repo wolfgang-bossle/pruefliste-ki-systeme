@@ -3,6 +3,9 @@
 **Selection · Build · Operation · Evidence** — a two-language questionnaire (German and
 English in one document) for the sign-off of an AI system.
 
+**Licence:** [CC BY-ND 4.0](LICENSE) — pass it on freely, including commercially,
+provided you pass it on unchanged. [Details below](#licence).
+
 ## What you do with it
 
 You take it into a review of a finished system and work through it question by question.
