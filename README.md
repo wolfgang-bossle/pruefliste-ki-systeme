@@ -1,7 +1,8 @@
 # Review questions for AI systems
 
 **Selection · Build · Operation · Evidence** — a two-language questionnaire (German and
-English in one document) for the sign-off of an AI system.
+English in one document) for the sign-off of an AI system: the questions asked by internal
+audit, by the sponsor, by data protection.
 
 **Licence:** [CC BY-ND 4.0](LICENSE) — pass it on freely, including commercially,
 provided you pass it on unchanged. [Details below](#licence).
@@ -16,8 +17,13 @@ Every question names, in a second column, what does **not** count as an answer �
 assurance, the intention, the policy nobody has read. Most of the questions are blocking:
 where the answer is missing, the system is not ready to go into operation.
 
-**→ [Download the current edition](../../releases/latest)** — the PDF is attached to the
-release, not stored in the file tree.
+That is the part of AI governance a review can actually test: not the policy, but the
+evidence behind it.
+
+**→ [Read the questionnaire](questionnaire.md)** — both languages, the full set of
+questions with their sources.
+**→ [Download the current edition](../../releases/latest)** — the same questions as a PDF
+made for print, together with the derivation, attached to the release.
 
 ## Where the questions come from
 
@@ -50,6 +56,9 @@ So what is documented is not only what is asked, but why the rest is not asked.
 ## Who is behind it
 
 Wolfgang Bossle, Registered CPA, Claude Certified Architect.
+
+The perspective is that of accounting and audit — the side of the table that has to be
+satisfied. The questions themselves are vendor-neutral and tied to no one field.
 
 For context: my own system is still being built. I write from the design side, not from
 live operation.

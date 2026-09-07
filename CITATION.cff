@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: Review questions for AI systems
+message: >-
+  If you use these review questions, please cite them as below.
+type: dataset
+authors:
+  - family-names: Bossle
+    given-names: Wolfgang
+abstract: >-
+  A two-language questionnaire (German and English in one document) for the
+  sign-off of an AI system, grouped into Selection, Build, Operation and
+  Evidence. Every question names what does not count as an answer. The
+  derivation records, for every question, the certification objective it came
+  from, and every deletion with its reason.
+# Keine keywords: Owner der Schlagwörter sind die GitHub-Topics des Repositoriums.
+license: CC-BY-ND-4.0
+version: "1"
+date-released: "2026-09-07"
+url: https://github.com/wolfgang-bossle/ai-system-checklist
+repository-code: https://github.com/wolfgang-bossle/ai-system-checklist
