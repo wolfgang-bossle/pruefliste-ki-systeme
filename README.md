@@ -86,9 +86,9 @@ page is where it stands.
 
 None of this is a promise. It is where the work currently points.
 
-**Edition 2** will carry what the first reviewers sent back. Their objections are being
-worked through one by one; what gets in, and what does not, will be visible in
-[CHANGELOG.md](CHANGELOG.md).
+**Edition 2** follows a first round of review. Every objection raised is worked through one
+by one, against a single test: does the questionnaire get better, yes or no. What that lets
+in, and what it leaves out, will be visible in [CHANGELOG.md](CHANGELOG.md).
 
 **A second anchor, beside the exam guides — an idea, not a decision.** The questions are
 derived from one vendor's certification guides. That is a narrow footing for a document
