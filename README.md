@@ -53,11 +53,3 @@ Weitergabe ist erlaubt, auch kommerziell und an Mandanten, sofern das Dokument u
 Bei Weitergabe bleiben erhalten: der Name des Urhebers, dieser Vermerk, der Hinweis auf die Lizenz und der Abschnitt „Keine Haftung“.
 
 Wer eine angepasste Fassung weitergeben möchte, meldet sich bitte vorab per Direktnachricht auf LinkedIn.
-
-Zum Kopieren bei Weitergabe:
-
-```
-„Prüfliste für KI-Systeme“ von Wolfgang Bossle, lizenziert unter CC BY-ND 4.0,
-https://github.com/wolfgang-bossle/ai-system-checklist. Keine Haftung (siehe Abschnitt
-„Keine Haftung“ im Dokument und Abschnitt 5 der Lizenz).
-```
