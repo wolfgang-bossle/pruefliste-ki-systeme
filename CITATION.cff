@@ -16,6 +16,6 @@ abstract: >-
 # Keine keywords: Owner der Schlagwörter sind die GitHub-Topics des Repositoriums.
 license: CC-BY-ND-4.0
 version: "2"
-date-released: "2026-09-07"
+date-released: "2026-09-23"
 url: https://github.com/wolfgang-bossle/ai-system-checklist
 repository-code: https://github.com/wolfgang-bossle/ai-system-checklist
