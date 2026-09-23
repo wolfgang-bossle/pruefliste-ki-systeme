@@ -1,135 +1,114 @@
-# Review questions for AI systems
+# Prüfliste für KI-Systeme
 
-**Selection · Build · Operation · Evidence** — a two-language questionnaire (German and
-English in one document) for the sign-off of an AI system: the questions asked by internal
-audit, by the sponsor, by data protection.
+**Auswahl · Bau · Betrieb.** Die Prüfliste soll bei Auswahl, Bau und Betrieb eines
+KI-Systems im Unternehmen eine unverbindliche Hilfestellung geben. Sie sagt, welche Fragen
+dem Dienstleister zu stellen sind, und zeigt an Beispielen, wie ein tragfähiger Nachweis
+aussehen kann und woran ein ungenügender scheitert.
 
-**Licence:** [CC BY-ND 4.0](LICENSE) — pass it on freely, including commercially,
-provided you pass it on unchanged. [Details below](#licence).
+**Lizenz:** [CC BY-ND 4.0](LICENSE). Weitergabe ist erlaubt, auch kommerziell, sofern das
+Dokument unverändert bleibt. [Einzelheiten unten](#lizenz).
 
-## What you do with it
+**→ [Aktuelle Fassung herunterladen](../../releases/latest).** Am Release hängen zwei PDF:
+die Prüfliste und der Anhang mit der Herleitung.
 
-You take it into a review of a finished system and work through it question by question.
-What you learn at the end is not whether the system is good. It is something more useful:
-where nobody can produce anything.
+## Wie die Prüfliste eingesetzt wird
 
-Every question names, in a second column, what does **not** count as an answer — the
-assurance, the intention, the policy nobody has read. Most of the questions are blocking:
-where the answer is missing, the system is not ready to go into operation.
+Sie wird in das Gespräch mit dem Dienstleister mitgenommen und Frage für Frage
+durchgegangen. Bei jeder Frage wird zuerst entschieden, ob sie auf das System anwendbar ist.
+Ist sie es nicht, wird sie mit n. a. (nicht anwendbar) gekennzeichnet und übergangen.
+Sonst wird festgehalten, ob der Nachweis vorliegt oder nicht.
 
-That is the part of AI governance a review can actually test: not the policy, but the
-evidence behind it.
+Am Ende steht nicht fest, ob das System gut ist. Sichtbar wird etwas Nützlicheres: wo
+niemand etwas vorlegen kann.
 
-**→ [Read the questionnaire](questionnaire.md)** — both languages, the full set of
-questions with their sources.
-**→ [Download the current edition](../../releases/latest)** — the same questions as a PDF
-made for print, together with the derivation, attached to the release.
+## Was auf jeder Seite steht
 
-## Where the questions come from
+Jede Frage hat eine eigene Seite. Oben die Frage, direkt darunter die Seite von Anthropic
+zum Thema; wo sie zur Dokumentation von Claude Code gehört, zeigt sie, wie Anthropic die
+Frage im eigenen Produkt löst. Es folgen der Fall, der nicht genügt, mit seinen Mängeln,
+und ein erfundenes Beispiel, das zeigt, wie der Nachweis aussehen könnte.
 
-They are derived from the exam guides of the four Claude certifications. Those guides are
-public and describe what a person should be able to do. A capability cannot be handed to a
-reviewer, so every published objective was held against one single question:
+Jede Forderung steht neben dem wörtlichen Zitat, das sie trägt, mit Fundstelle. Richtet
+sich eine Norm nicht an das Unternehmen, steht das dabei. Alle Beispiele spielen im selben
+Rahmenfall: Die Muster GmbH lässt von einem Dienstleister KI-Unterstützung für ihr
+Rechnungswesen bauen (Belege erfassen, Kontierung vorschlagen, Zahlungen zuordnen), nimmt
+sie ab und betreibt sie.
 
-> Does this produce evidence — a document, a log, a test run, a decision with a person and
-> a date?
+## Woher die Fragen kommen
 
-Most objectives did not survive that question, and the reasons are recorded rather than
-summarised: an objective that another one already answers with the same document, one that
-can be met with an assurance, one that describes a human skill instead of a property of the
-system, one that is pure product knowledge. What remains carries its origin with it.
+**Aus den Vorgaben von Anthropic.** Die Fragen sind aus vier Leitfäden abgeleitet, mit denen
+Anthropic seine Zertifizierungen beschreibt. Aufgenommen wurde nur, was einen Nachweis
+erzeugt: ein Dokument, ein Protokoll, einen Testlauf, eine Entscheidung mit Person und
+Datum. Wie die Fragen entstanden sind, was dabei ausgeschieden ist und aus welchem Grund,
+zeigt der Anhang.
 
-The questions contain no wording from Anthropic's materials, and no exam content. There is
-no connection to Anthropic, and none is claimed.
+**Gemessen an den Quellen der KI-Governance.** Woran sich ein KI-System im Unternehmen
+messen lassen muss, bestimmt nicht Anthropic, sondern Gesetzgeber, Verwaltung und
+Berufsstand: die KI-Verordnung (KI-VO) mit den Leitlinien der Kommission zu Art. 50, die
+Datenschutz-Grundverordnung (DSGVO), das Geschäftsgeheimnisgesetz (GeschGehG), die GoBD,
+dazu der Prüfungsstandard IDW PS 861 zur Prüfung von KI-Systemen und der IDW AdvH 6.003 zur
+Einführung generativer KI im Unternehmen. Bei der Auswahl des Anbieters kommt der CLOUD Act
+hinzu; er verpflichtet den Anbieter, nicht das Unternehmen.
 
-## What is in the download
+Anthropic hat an der Prüfliste nicht mitgewirkt. Die Prüfliste gibt keine Inhalte der
+Zertifizierungsprüfungen wieder.
 
-One PDF, German first and English second, containing:
-
-- **the questionnaire** — a few pages, made to be carried into a meeting;
-- **the derivation behind it** — for every question the exam objective it came from, with a
-  pointer to the place in Anthropic's public documentation where one exists, and every
-  deletion with its reason.
-
-So what is documented is not only what is asked, but why the rest is not asked.
-
-## Who is behind it
+## Wer dahintersteht
 
 Wolfgang Bossle, Registered CPA, Claude Certified Architect.
 
-The perspective is that of accounting and audit — the side of the table that has to be
-satisfied. The questions themselves are vendor-neutral and tied to no one field.
+Die Prüfliste ist aus den genannten Quellen hergeleitet, nicht aus der Erfahrung mit einem
+laufenden System. Sie ist deshalb nicht abgeschlossen: Rückmeldungen aus der Praxis helfen,
+sie zu schärfen. Was daraus geworden ist, steht im [Änderungsprotokoll](CHANGELOG.md).
 
-For context: my own system is still being built. I write from the design side, not from
-live operation.
+## Rückmeldungen
 
-## How to respond
-
-Corrections, gaps and objections are welcome. The way that works is a **direct message on
+Korrekturen, Lücken und Einwände sind willkommen, am besten per **Direktnachricht auf
 LinkedIn**: <https://www.linkedin.com/in/wolfgang-bossle/>
 
-Issues in this repository are read, but answered more slowly. Every change that came from
-outside is recorded in [CHANGELOG.md](CHANGELOG.md) — with the hint it followed.
+Issues in diesem Repository werden gelesen, aber langsamer beantwortet.
 
-## What this is, and what it is not
+## Keine Haftung
 
-The questionnaire is offered as **non-binding assistance**. It is not an audit, not a
-review, not legal or tax advice. No assurance is given as to completeness or correctness,
-and no judgement is passed on any system, vendor or legal position. Whoever uses it decides
-which questions apply in the case at hand and whether an answer is sufficient.
+Die Prüfliste wird unentgeltlich abgegeben. Der Verfasser übernimmt keinerlei Haftung für
+Schäden, die aus ihrer Verwendung entstehen, gleich aus welchem Rechtsgrund. Wer die
+Prüfliste einsetzt, entscheidet selbst und auf eigene Verantwortung, welche Fragen zu
+stellen sind und ob eine Antwort ausreicht.
 
-This statement applies to every edition. From edition 2 onwards it is also printed on the
-first page of the document itself; edition 1 does not carry it, so for that edition this
-page is where it stands.
+Maßgeblich ist der Abschnitt „Keine Haftung“ auf den ersten Seiten des Dokuments. Fassung 1
+trug ihn noch nicht; für sie gilt diese Seite.
 
-## Planned next steps
+## Lizenz
 
-None of this is a promise. It is where the work currently points.
+Prüfliste und Anhang stehen unter
+**[Creative Commons Namensnennung-Keine Bearbeitungen 4.0 International](LICENSE)**
+(CC BY-ND 4.0).
 
-**Edition 2** follows a first round of review. Every objection raised is worked through one
-by one, against a single test: does the questionnaire get better, yes or no. What that lets
-in, and what it leaves out, will be visible in [CHANGELOG.md](CHANGELOG.md).
+Weitergabe ist erlaubt, auch kommerziell und an Mandanten, **sofern das Dokument
+unverändert bleibt**. Eine angepasste Fassung darf für den eigenen Gebrauch angefertigt,
+aber nicht öffentlich weitergegeben werden.
 
-**A second anchor, beside the exam guides — an idea, not a decision.** The questions are
-derived from one vendor's certification guides. That is a narrow footing for a document
-meant for a review. The obvious counterweight is the body of rules a German reviewer
-already works with: the EU AI Act, the GDPR, the GoBD, the Commission's guidance on the
-Article 50 transparency obligations, the German Trade Secrets Act, the US CLOUD Act, and
-the IDW pronouncements — IDW PS 861 on the audit of AI systems, IDW AdvH 6.003 on the
-use of generative AI.
+**Bei Weitergabe bleiben erhalten** (Abschnitt 3(a)(1) der Lizenz):
 
-Nothing in the questionnaire would change because of this. The place for it would be the
-rationale, where each question already names where it comes from — a second line beside
-the first, so a question can be traced not only to a capability someone should have, but
-to a rule someone has to keep. Whether that is worth its weight is the open question.
+- der Name des Urhebers
+- der Urheberrechtsvermerk
+- der Hinweis auf die Lizenz
+- **der Hinweis auf den Haftungsausschluss**
+- der Link auf das Original
 
-## Licence
+Zum Kopieren:
 
-The questionnaire, its text and its data are licensed under
-**[Creative Commons Attribution-NoDerivatives 4.0 International](LICENSE)** (CC BY-ND 4.0).
+```
+„Prüfliste für KI-Systeme“ von Wolfgang Bossle, lizenziert unter CC BY-ND 4.0,
+https://github.com/wolfgang-bossle/ai-system-checklist. Keine Haftung (siehe Abschnitt 5
+der Lizenz und den Abschnitt „Keine Haftung“ im Dokument).
+```
 
-You may share it, including commercially and including with clients, **provided you pass it
-on unchanged**. You may produce an adapted version for your own use; you may not share that
-adapted version publicly.
+Die Lizenz erlaubt nicht, eine Verbindung zum Urheber oder dessen Billigung zu behaupten
+(Abschnitt 2(a)(6)). Name und Titel sind nicht als Kennzeichen lizenziert
+(Abschnitt 2(b)(2)).
 
-**When you share it, these must remain with it** (Sec. 3 a.1 of the licence):
-
-- the name of the author
-- the copyright notice
-- a reference to this licence
-- **a reference to the disclaimer of warranties**
-- a link to the original
-
-Ready to copy:
-
-> „Review questions for AI systems" by Wolfgang Bossle, licensed under CC BY-ND 4.0 —
-> https://github.com/wolfgang-bossle/ai-system-checklist — no warranty is given (see Sec. 5
-> of the licence and the reservation printed in the document).
-
-Nothing in the licence permits any claim of a connection to, or endorsement by, the author
-(Sec. 2 a.6). Name and title are not licensed as marks (Sec. 2 b.2).
-
-**If you need more than the licence allows** — a translation, or an adapted edition you
-want to pass on — ask. Permission is given case by case, in writing, for the edition and
-the purpose named in it. Such an arrangement is separate from and independent of this
-licence (Sec. 7 b). The way to ask is the direct message above.
+**Wer mehr braucht, als die Lizenz erlaubt**, etwa eine Übersetzung oder eine angepasste
+Fassung zur Weitergabe, fragt per Direktnachricht auf LinkedIn. Die Erlaubnis wird im
+Einzelfall schriftlich erteilt, für die darin benannte Fassung und den benannten Zweck.
+Eine solche Absprache steht neben der Lizenz und ist von ihr unabhängig (Abschnitt 7(b)).
