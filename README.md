@@ -32,8 +32,6 @@ Entstanden ist die Prüfliste aus dem Bedarf, beide Seiten an einer Stelle zu ha
 
 Rückmeldungen gerne per Direktnachricht auf LinkedIn: <https://www.linkedin.com/in/wolfgang-bossle/>
 
-Die aktuelle Fassung ist hier abrufbar: <https://www.github.com/wolfgang-bossle/ai-system-checklist>
-
 ## Keine Haftung
 
 **Die Prüfliste wird unentgeltlich abgegeben. Der Verfasser übernimmt keinerlei Haftung für Schäden, die aus ihrer Verwendung entstehen, gleich aus welchem Rechtsgrund.**
@@ -55,6 +53,7 @@ Weitergabe ist erlaubt, auch kommerziell und an Mandanten, sofern das Dokument u
 Bei Weitergabe bleiben erhalten: der Name des Urhebers, dieser Vermerk, der Hinweis auf die Lizenz und der Abschnitt „Keine Haftung“.
 
 Wer eine angepasste Fassung weitergeben möchte, meldet sich bitte vorab per Direktnachricht auf LinkedIn.
+
 Zum Kopieren bei Weitergabe:
 
 ```
