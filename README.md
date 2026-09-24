@@ -24,7 +24,7 @@ Anthropic hat an der Prüfliste nicht mitgewirkt. Die Prüfliste gibt keine Inha
 
 ## Anwendbarkeit
 
-Die Prüfliste geht davon aus, dass ein **Dienstleister das System baut und das Unternehmen es abnimmt und betreibt**. Nicht jede Frage passt auf jedes System, und bei einem spezialisierten System trifft naturgemäß nur ein Teil zu. Bei jeder Frage wird deshalb zuerst entschieden, ob sie anwendbar ist; das entscheidet, wer die Prüfliste einsetzt. Ist sie es nicht, wird sie mit n. a. (nicht anwendbar) gekennzeichnet und übergangen.
+Die Prüfliste geht davon aus, dass ein **Dienstleister das System baut und das Unternehmen es abnimmt und betreibt**. Welche anderen Ausgangspunkte es gibt und was sie für die Beantwortung bedeuten, zeigt der Anhang in Teil D „Ausgangspunkte“. Nicht jede Frage passt auf jedes System, und bei einem spezialisierten System trifft naturgemäß nur ein Teil zu. Bei jeder Frage wird deshalb zuerst entschieden, ob sie anwendbar ist; das entscheidet, wer die Prüfliste einsetzt. Ist sie es nicht, wird sie mit n. a. (nicht anwendbar) gekennzeichnet und übergangen.
 
 ## Einordnung
 

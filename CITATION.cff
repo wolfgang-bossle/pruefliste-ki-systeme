@@ -12,11 +12,11 @@ abstract: >-
   Datenschutz-Grundverordnung (DSGVO), GoBD und IDW, am Rahmenfall
   Rechnungswesen. Je Frage eine Seite mit der Seite von Anthropic zum Thema,
   dem Fall, der nicht genügt, und einem erfundenen Beispiel für den Nachweis.
-  Der Anhang zeigt die Herkunft jeder Frage und jedes ausgeschiedene Lernziel
-  mit Grund.
+  Der Anhang zeigt die Herkunft jeder Frage, jedes ausgeschiedene Lernziel
+  mit Grund und die Ausgangspunkte, von denen eine Prüfung ausgehen kann.
 # Keine keywords: Owner der Schlagwörter sind die GitHub-Topics des Repositoriums.
 license: CC-BY-ND-4.0
-version: "2"
-date-released: "2026-09-23"
+version: "2.1"
+date-released: "2026-09-24"
 url: https://github.com/wolfgang-bossle/pruefliste-ki-systeme
 repository-code: https://github.com/wolfgang-bossle/pruefliste-ki-systeme
